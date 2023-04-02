@@ -1,0 +1,23 @@
+{
+  "name": "slack-bot-toggl",
+  "version": "0.0.1",
+  "description": "slack bot for toggl.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "date-fns-timezone": "^0.1.4",
+    "date-utils": "^1.2.21",
+    "got": "11.8.6",
+    "remove": "^0.1.5",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}

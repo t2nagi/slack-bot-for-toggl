@@ -1,0 +1,16 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Slack bot for toggl project",
+	"dockerComposeFile": ["../docker-compose.yml", "./docker-compose.yml"],
+	"service": "bot",
+	"workspaceFolder": "/work",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-docker",
+				"alexcvzz.vscode-sqlite",
+				"mhutchie.git-graph"
+			]
+		}
+	}
+}
