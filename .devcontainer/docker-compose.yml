@@ -2,5 +2,6 @@ version: "3.8"
 
 services:
   bot:
+    command: /bin/bash
     tty: true
   
