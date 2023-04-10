@@ -33,7 +33,9 @@ class TogglStop {
 
         await client.chat.postMessage({
             channel: userToggl.channel,
-            text: `<@${userId}> さんが作業を終了しました。(作業時間:${elapsedTime.toFormat('HH24:MI:SS')})\n${message}`
+            // 作業時間を非表示に変更
+            // text: `<@${userId}> さんが作業を終了しました。(作業時間:${elapsedTime.toFormat('HH24:MI:SS')})\n${message}`
+            text: `<@${userId}> さんが作業を終了しました。\n${message}`
         });
 
         respond(`トラッキングを終了しました。(作業時間:${elapsedTime.toFormat('HH24:MI:SS')})\n${message}`);
